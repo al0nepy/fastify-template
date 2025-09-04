@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    // --- Output & Structure ---
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@utils/*": ["utils/*"],
+      "@modules/*": ["modules/*"],
+      "@database/*": ["database/*"],
+      "@constants/*": ["constants/*"]
+    },
+
+    // --- Module Resolution & Target ---
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "lib": ["ES2022"],
+
+    // --- Strictness & Code Quality ---
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitOverride": true,
+    "noEmitOnError": true,
+    "isolatedModules": true,
+
+    // --- Debugging & Interoperability ---
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "resolveJsonModule": false,
+    "allowJs": false,
+  },
+  "include": ["@types", "src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
