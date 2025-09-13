@@ -41,6 +41,8 @@
     "typescript-eslint": "^8.35.1"
   },
   "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^14.1.1",
+    "@chainsafe/libp2p-yamux": "^7.0.4",
     "@fastify/auth": "^5.0.2",
     "@fastify/autoload": "^6.3.1",
     "@fastify/cookie": "^11.0.2",
@@ -52,14 +54,21 @@
     "@fastify/sensible": "^6.0.3",
     "@fastify/swagger": "^9.5.1",
     "@fastify/type-provider-typebox": "^5.1.0",
+    "@libp2p/circuit-relay-v2": "^3.2.24",
+    "@libp2p/mdns": "^11.0.47",
+    "@libp2p/noise": "^12.0.1",
+    "@libp2p/webrtc": "^5.2.24",
+    "@libp2p/websockets": "^9.2.19",
+    "@libp2p/webtransport": "^5.0.51",
     "@node-rs/argon2": "^2.0.2",
     "@scalar/fastify-api-reference": "^1.32.1",
+    "@signalapp/libsignal-client": "^0.80.3",
     "@sinclair/typebox": "^0.34.37",
     "dotenv": "^17.0.0",
-    "drizzle-orm": "^0.44.2",
     "fastify": "^5.4.0",
     "fastify-plugin": "^5.0.1",
-    "pino": "^9.7.0",
-    "postgres": "^3.4.7"
+    "libp2p": "^2.10.0",
+    "mongoose": "^8.18.1",
+    "pino": "^9.7.0"
   }
 }
